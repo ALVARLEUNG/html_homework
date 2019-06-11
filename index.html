@@ -3,8 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <title>HTML</title>
+		<style type="text/css">
+		.text_input {
+			border: -webkit-activelink;
+		} 
+	</style>
 </head>
-<body>
-
-</body>
+<body style="margin-left: 3%;">
+		<h1>统一建模语言理论测试</h1>
+		<from>
+		<p>
+			考试科目：<input class="text_input" type="text" readonly="readonly" value="统一建模语言" >
+			时间：<input class="text_input" type="text" readonly="readonly" value="100分钟" >
+			得分：<input class="text_input" type="text" readonly="readonly" value="100" ></p>
+		<p>
+			班级：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" value="1班">
+			学号：<input type="text" value="001">
+			姓名<input type="text" value="王小闹">
+		</p>
+		<h2>一、填空题（每空5分，共20分）</h2>
+		<ol>
+			<li>UML的中文全称是：<input type="text" value="统一建模语言"></li>
+			<li>对象最突出的特点是：<input type="text" value="封装性">&nbsp;
+			<input type="text" value="继承性">&nbsp;<input type="text" value="多态性"></li>
+		</ol>
+		<h2>二、选择题（每题10分，共20分）</h2>
+		<ol>
+			<li>
+				<p>UML与软件工程的关系是：</p>
+				<p><input name="select1" type="radio">(A)UML就是软件工程</p>
+				<p><input name="select1" type="radio">(B)UML参与到软件工程中软件开发过程的几个阶段</p>
+				<p><input name="select1" type="radio">(C)UML与软件工程无关</p>
+				<p><input name="select1" type="radio">(D)UML就是软件工程</p>
+			</li>
+			<li>
+				<p>Java语言支持：</p>
+				<p><input name="select2" type="radio">(A)单继承</p>
+				<p><input name="select2" type="radio">(B)多继承</p>
+				<p><input name="select2" type="radio">(C)单继承和多继承都支持</p>
+				<p><input name="select2" type="radio">(D)单继承和多继承都不支持</p>
+			</li>
+		</ol>
+		<h2>三、多选题（每题10分，共20分）</h2>
+		<ol>
+			<li>
+				<p>用例的粒度分为以下哪3种：</p>
+				<p><input name="check1" type="checkbox">(A)概述级</p>
+				<p><input name="check2" type="checkbox">(B)需求级</p>
+				<p><input name="check3" type="checkbox">(C)用户目标级</p>
+				<p><input name="check4" type="checkbox">(D)子功能级</p>
+			</li>
+			<li>
+				<p>类图由以下哪三部分组成：</p>
+				<p><input name="check5" type="checkbox">(A)名称(Name)</p>
+				<p><input name="check6" type="checkbox">(B)属性(Attribute)</p>
+				<p><input name="check7" type="checkbox">(C)操作(Operation)</p>
+				<p><input name="check8" type="checkbox">(D)方法(Function)</p>
+			</li>
+		</ol>
+		<h2>四、判断题（每题10分，共20分）</h2>
+		<ol>
+			<li>用例图只是用于和客户交流和沟通的，用于确定需求。
+			<input name="judge1" type="radio">	&#8730
+			<input name="judge1" type="radio">X
+			</li>
+			<li>在状态图中，终止状态在一个状态图中允许有任意多个。
+				<input name="judge2" type="radio">	&#8730
+				<input name="judge2" type="radio">X
+			</li>
+		</ol>
+		<h2>五、简答题（每题20分，共20分）</h2>
+		<ol>
+			<p>简述什么是模型以及模型的表现形式？</p>
+			<p>
+				<textarea style="width: 400px;height: 200px;" value="模型是对现实世界的转化个抽象,模型是对所研究的系统,过程,事物或概念的一种表达形式.可以是物理实体;可以是某种图形;或者是一种数学表达式."></textarea>
+				</p>
+		</ol>
+		<p><button>计算分数</button></p>
+		</from>
+	</body>
 </html>
